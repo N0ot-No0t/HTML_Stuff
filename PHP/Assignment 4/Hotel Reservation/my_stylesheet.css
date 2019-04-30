@@ -1,0 +1,15 @@
+body{background-color: goldenrod;}
+
+.room_info_field{background-color: chocolate;border-color: blue}
+.room_specs_field{background-color: indianred;border-color: green}
+.room_info_legend{color: blue}
+.room_specs_legend{color: green}
+.hotel_image{text-align: left}
+h2{text-align: center}
+.user_input{font-weight: bold}
+.user_input1{font-weight: bold;color: lightblue}
+.user_input2{font-weight: bold;color: lightgreen}
+#expertFieldset{height: 60px; visibility: hidden}
+#time{color:blue}
+#footer{background-color: aquamarine; height: 200px}
+#greetingMessage{color:darkblue}

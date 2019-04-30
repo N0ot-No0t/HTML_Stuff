@@ -1,0 +1,148 @@
+body{
+
+    background-image: url("https://cdn.dribbble.com/users/59947/screenshots/1922138/muti-1a.jpg");
+    background-repeat: repeat;
+    
+}
+
+table{
+
+    width: 550px;
+    margin: 20px;
+    text-align: center;
+
+}
+
+.divTable{
+
+    width:550px;
+    margin: 20px;
+    border: 10px dotted;
+    padding: 10px;
+    border-bottom: 10px dashed;
+    border-top: 10px dashed;
+    text-align: center;
+
+}
+
+.divTitle{
+
+    width: 400px;
+    border:20px solid gray;
+    background: coral;
+    text-decoration-color: azure;
+
+}
+
+.divHead{
+
+    width: 200px;
+    background-color: blanchedalmond;
+    text-align: center;
+
+}
+
+.divYellow{
+
+    width:200px;
+    margin: 10px;
+    border: 5px goldenrod solid;
+    padding: 5px;
+    background-color: yellow;
+
+}
+
+.divRed{
+
+    width: 350px;
+    margin: 10px;
+    border: 5px orangered solid;
+    padding: 5px;
+    background-color: crimson;
+
+}
+
+.divGreen{
+
+    width:200px;
+    margin: 10px;
+    border: 5px forestgreen solid;
+    padding: 5px;
+    background-color: lawngreen;
+
+}
+
+.divBlue{
+
+    width: 350px;
+    margin: 10px;
+    border: 5px darkblue solid;
+    padding: 5px;
+    background-color: dodgerblue;
+
+}
+
+.roman{
+    list-style: upper-roman;
+}
+
+.img1{
+
+    list-style-image: url("smiley.jpg");
+
+
+}
+
+.img2{
+
+    list-style-image: url("pouting.png");
+
+}
+
+.listLetter{
+
+    list-style-type: upper-latin;
+
+}
+
+.listBulletSquare{
+
+    list-style-type: square;
+    list-style-image: none;
+
+}
+
+.listBulletCircle{
+
+    list-style-type: circle;
+
+}
+
+.listArmenian{
+
+    list-style-type: armenian;
+
+}
+
+
+.listColorGreen{
+
+    color: forestgreen;
+
+}
+
+#listColorBlue{
+
+    color: darkblue;
+
+}
+
+.par1{
+
+}
+
+p.par1{
+
+}
+
+

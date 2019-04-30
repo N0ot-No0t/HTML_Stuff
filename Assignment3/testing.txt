@@ -1,0 +1,3 @@
+John;Doe;jd2019@example.com
+Jane;Doe;jane@google.com;
+Bob;777;bob%777@bob.com

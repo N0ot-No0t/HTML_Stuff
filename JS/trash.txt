@@ -1,0 +1,29 @@
+v1 = 5;
+v2 = 4;
+
+str = "test";
+
+//console.log(str + (v1 + v2));
+
+//console.log(11 < 2 + "birds");
+
+// document.write(1 + 6 + "<br>");
+// document.write("6" + 1 + "<br>");
+// document.write(1 + "6" + 2 + "<br>");
+// document.write(1 + 6 + "JS<br>");
+// document.write(1+"JS<br>");
+// document.write(7*'3'+"<br>");
+// document.write(1 - "5"+"<br>");
+
+//var test1 = 999999;
+
+//document.write("<h6>"+test1+"<h6/>");
+
+//var x = 5;
+//document.writeln(x === "5");
+
+// alert("test1");
+//
+// confirm("test2");
+//
+// prompt("test3", "cool test");

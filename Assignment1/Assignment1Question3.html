@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Hotel Reservation Form (Colored)</title>
+
+
+<body>
+
+<h2>Hotel Reservation Form</h2>
+
+<form>
+
+    <fieldset>
+
+        <legend>Reservation Information</legend>
+
+        <label>Name of Rooms (max 5 people per room)</label>
+
+            <input type="text" name="room_numberof"/>
+            <br/>
+            <br/>
+
+
+
+        <label>Smoker?</label>
+
+        <input type="radio" name="smoker_in" value="yes"/>
+        <label>Yes</label>
+
+        <input type="radio" name="smoker_in" value="no"/>
+        <label>No</label>
+
+        <br/><br/>
+
+        <label>Check-in:</label>
+
+            <input type="date" name="check_in_date"/>
+
+        <br/><br/>
+
+        <label>Check-out:</label>
+
+            <input type="date" name="check_out_date"/>
+
+        <br/><br/>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Room Specifications</legend>
+
+        <ul>
+
+            <li>
+
+                <label>Number of single/double beds:</label>
+
+                <br/>
+
+                <input type="checkbox" name="r1"/> <label>0/2</label>
+                <input type="checkbox" name="r2"/> <label>2/0</label>
+                <input type="checkbox" name="r3"/> <label>1/1</label>
+                <input type="checkbox" name="r4"/> <label>2/1</label>
+                <input type="checkbox" name="r5"/> <label>1/2</label>
+
+                <br/><br/>
+
+            </li>
+
+            <li>
+
+                <label>Do you have preferred locations for the hotel?</label>
+
+                <input type="checkbox" name="downtown"/> <label>Downtown</label>
+                <input type="checkbox" name="montreal_east"/> <label>Montreal East</label>
+                <input type="checkbox" name="montreal_west"/> <label>Montreal West</label>
+                <input type="checkbox" name="near_airport"/> <label>Near to the airport</label>
+                <input type="checkbox" name="oldport"/> <label>Oldport</label>
+                <input type="checkbox" name="idc"/> <label>Don't care</label>
+
+                <br/><br/>
+
+            </li>
+
+            <li>
+
+                <label>Price Range/per night:</label>
+
+                    <select>
+
+                        <option>Under $50</option>
+                        <option>Under $100</option>
+                        <option>Under $200</option>
+                        <option>No price limit</option>
+
+                    </select>
+
+                <br/><br/>
+
+            </li>
+
+            <li>
+
+                <label>Number of Private Parking</label><br/>
+
+                    <input type="radio" name="private_parking_radio" value="0"/><label>0</label><br/>
+                    <input type="radio" name="private_parking_radio" value="1"/><label>1</label><br/>
+                    <input type="radio" name="private_parking_radio" value="2"/><label>2</label><br/>
+                    <input type="radio" name="private_parking_radio" value="3"/><label>3</label><br/>
+                    <input type="radio" name="private_parking_radio" value="4"/><label>4</label><br/>
+
+
+
+
+            </li>
+
+            <li>
+
+                <label>Special Facilities</label><br/>
+
+                <input type="checkbox" name="minibar" value="minibar"/><label>Minibar</label><br/>
+                <input type="checkbox" name="balcony" value="balcony"/><label>Balcony</label><br/>
+                <input type="checkbox" name="pool" value="pool"/><label>Pool</label><br/>
+                <input type="checkbox" name="water_front" value="water_front"/><label>Water Front</label><br/>
+                <input type="checkbox" name="garden_front" value="garden_front"/><label>Garden Front</label><br/>
+
+
+            </li>
+
+        </ul>
+
+    </fieldset>
+
+
+
+    <br/>
+
+
+    <label>Let's see what we can find ...</label>
+    <br/>
+    <br/>
+    <input type="submit" name="search" value="Search"/>
+
+    <input type="reset" name="star_over" value="Start Over"/>
+    <br/>
+
+</form>
+
+</body>
+</html>
